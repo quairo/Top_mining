@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 28px auto;
+    max-width: 1727px;
+}
+.lists {
+    display: flex;
+    gap: 9px;
+    line-height: 27px;
+}
+.list {
+    margin: 16px 0 0 0;
+}
+.kata {
+    display: flex;
+    gap: 72px;
+    margin: 12px -100px 0 0;
+}
+.main_list {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Unbounded", sans-serif;
+}
+.pmks {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Mulish", sans-serif;
+}
+.pmks_one {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Mulish", sans-serif;
+    width: 100px;
+    line-height: 20px;
+}
+.strip {
+    background-color: #D3D3D3;
+    width: 239px;
+    height: 1px;
+    margin: 10px 0 10px 0;
+}
+.orange_button {
+    font-family: "Unbounded", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: center;
+    width: 268px;
+    height: 46px;
+    border: 1px solid #EC5100;
+    border-radius: 100px;
+    color: #fff;
+    background: linear-gradient( 50deg , #EC5100 , #FF741F );
+    font-size: small;
+    box-sizing: border-box;
+    cursor: pointer;
+}
