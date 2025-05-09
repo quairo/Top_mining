@@ -23,7 +23,7 @@
 .kata {
     display: flex;
     gap: 72px;
-    margin: 12px -100px 0 0;
+    margin: 13px -100px 0 0;
 }
 .main_list {
     font-size: 16px;
@@ -52,10 +52,11 @@
     font-family: "Unbounded", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 44px;
+    line-height: 21px;
     text-align: center;
     width: 268px;
     height: 46px;
+    padding: 12px 24px 12px 24px;
     border: 1px solid #EC5100;
     border-radius: 100px;
     color: #fff;
@@ -63,4 +64,58 @@
     font-size: small;
     box-sizing: border-box;
     cursor: pointer;
+}
+.pmks_telegg {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Mulish", sans-serif;
+    margin: -3px 0 0 0;
+}
+@media (max-width: 1440px) {
+    .orange_button {
+        font-family: "Unbounded", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: center;
+        width: 164px;
+        height: 46px;
+        padding: 12px 24px 12px 24px;
+        border: 1px solid #EC5100;
+        border-radius: 100px;
+        color: #fff;
+        background: linear-gradient( 50deg , #EC5100 , #FF741F );
+        font-size: small;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 0 -20px 0 0;
+    }
+    .adapt {
+        display: none;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin: 28px auto;
+        max-width: 1320px;
+    }
+    .kata {
+        display: flex;
+        gap: 48px;
+        margin: 13px -100px 0 0;
+    }
+    .strip {
+        background-color: #D3D3D3;
+        width: 144px;
+        height: 1px;
+        margin: 10px 0 10px 0;
+    }
+    .pmks_telegg {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Mulish", sans-serif;
+        margin: -0.1px 0 0 0;
+        width: 100px;
+        line-height: 20px;
+    }
 }
