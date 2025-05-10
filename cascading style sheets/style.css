@@ -42,6 +42,23 @@
     width: 100px;
     line-height: 20px;
 }
+.pmks_inst {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Mulish", sans-serif;
+    width: 100px;
+    line-height: 20px;
+}
+.lists_tg {
+    display: flex;
+    gap: 9px;
+    line-height: 27px;
+}
+.lists_center {
+    display: flex;
+    gap: 9px;
+    line-height: 27px;
+}
 .strip {
     background-color: #D3D3D3;
     width: 239px;
@@ -93,6 +110,11 @@
     .adapt {
         display: none;
     }
+    .lists_tg {
+        display: flex;
+        gap: 9px;
+        line-height: 27px;
+    }
     .header {
         display: flex;
         justify-content: space-between;
@@ -118,4 +140,87 @@
         width: 100px;
         line-height: 20px;
     }
+    .pmks_inst {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Mulish", sans-serif;
+        width: 100px;
+        line-height: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .pmks {
+        font-size: 10px;
+        font-weight: 400;
+        font-family: "Mulish", sans-serif;
+    }
+    .strip {
+        background-color: #D3D3D3;
+        width: 138px;
+        height: 1px;
+        margin: 5px 0 10px 0;
+    }
+    .orange_button {
+        display: none;
+    }
+    .lists_center {
+        display: none;
+    }
+    .lists_tg {
+        display: flex;
+        gap: 6px;
+        line-height: 27px;
+        margin: -5px 0 0 0;
+    }
+    .house img {
+        width: 14px;
+        height: 14px;
+    }
+    .pmks_one {
+        font-size: 10px;
+        font-weight: 400;
+        font-family: "Mulish", sans-serif;
+        width: auto;
+        line-height: 20px;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        padding: 0 34px 0 34px;
+    }
+    .kata {
+        display: flex;
+        gap: 41px;
+        margin: 20px -100px 0 0;
+    }
+    .main_list {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Unbounded", sans-serif;
+    }
+    .pmks_telegg {
+        font-size: 10px;
+        font-weight: 400;
+        font-family: "Mulish", sans-serif;
+        margin: 3px 0 0 0;
+        width: auto;
+    }
+    .lists {
+        display: flex;
+        gap: 5px;
+        line-height: 27px;
+    }
+    .list {
+        margin: 10px 0 0 0;
+    }
+    .pmks_inst {
+        font-size: 10px;
+        font-weight: 400;
+        font-family: "Mulish", sans-serif;
+        width: 100px;
+        line-height: 20px;
+    }
+}
+@media (max-width: 320px) {
+
 }
