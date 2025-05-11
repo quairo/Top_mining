@@ -24,6 +24,13 @@
     display: flex;
     gap: 72px;
     margin: 13px -100px 0 0;
+    flex-wrap: wrap;
+}
+.smotr {
+    display: none;       
+}
+.smotri {
+    display: none;
 }
 .main_list {
     font-size: 16px;
@@ -88,6 +95,14 @@
     font-family: "Mulish", sans-serif;
     margin: -3px 0 0 0;
 }
+.addap {
+    display: flex;
+    gap: 20px;
+}
+.addp {
+    display: flex;
+    gap: 20px;
+}
 @media (max-width: 1440px) {
     .orange_button {
         font-family: "Unbounded", sans-serif;
@@ -107,7 +122,7 @@
         cursor: pointer;
         margin: 0 -20px 0 0;
     }
-    .adapt {
+    .adapttt {
         display: none;
     }
     .lists_tg {
@@ -222,5 +237,101 @@
     }
 }
 @media (max-width: 320px) {
-
+    .top_mining img {
+        width: 78px;
+        height: 24px;
+    }
+    .main_list {
+        font-size: 9px;
+        font-weight: 400;
+        font-family: "Unbounded", sans-serif;
+    }
+    .pmks {
+        font-size: 8px;
+        font-weight: 300;
+        font-family: "Mulish", sans-serif;
+    }
+    .pmks_one {
+        font-size: 8px;
+        font-weight: 300;
+        font-family: "Mulish", sans-serif;
+        width: auto;
+        line-height: 20px;
+    }
+    .strip {
+        display: none;
+    }
+    .adapt {
+        display: none;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px 0 10px;
+        margin: 10px 0 0 0;
+    }
+    .kata {
+        display: flex;
+        gap: 12px;
+        margin: 20px 0 0 0;
+    }
+    .lists {
+        display: flex;
+        gap: 5px;
+        line-height: 5px;
+    }
+    .kk {
+        margin: -3px 0 0 0;
+    }
+    .ll {
+        margin: 6px 0 0 0;
+    }
+    .addap {
+        display: flex;
+        gap: 43px;
+    }
+    .adapt {
+        display: none;
+    }
+    .addp {
+        display: flex;
+        gap: 43px;
+    }
+    .pmks_telegg {
+        font-size: 8px;
+        font-weight: 300;
+        font-family: "Mulish", sans-serif;
+        margin: 7px 0 0 0;
+    }
+    .ppt {
+        margin: 5px 0 0 0;
+    }
+    .gg {
+        margin: 11px 0 0 0;
+    }
+    .gg1 {
+        margin: 5px 0 0 0;
+    }
+    .g2 {
+        margin: 11px 0 0 0;
+    }
+    .g3 {
+        margin: 6px 0 0 0;
+    }
+    .smotr {
+        display: flex;
+        font-size: 6px;
+        font-weight: 300;
+        margin: 8px 0 0 0;
+    }
+    .smotr img {
+        width: 7px;
+        height: 7px;
+    }
+    .smotri {
+        display: flex;
+        font-size: 6px;
+        font-weight: 300;
+        margin: 9px 0 0 0;
+    }
 }
