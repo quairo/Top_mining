@@ -343,6 +343,9 @@ body {
     z-index: 1;
     overflow: hidden; 
 }
+.fivve {
+    display: none;
+}
 .knor2 {
     width: 309px;
     height: 48px;
@@ -372,6 +375,9 @@ body {
     top: 33px;
     left: 1px;
 }
+.kataloge4 {
+    display: none;
+}
 .ifirium {
     position: absolute;
     bottom: -2px;
@@ -388,6 +394,144 @@ body {
     top: -1px;
 }
 @media (max-width: 1440px) {
+    .iimfg4 {
+        margin: 5px 0 0 0;
+    }
+    .iimfg4 img {
+        width: 19px;
+        height: 19px;
+    }
+    .org4 {
+        font-size: 28px;
+        font-weight: 400;
+        font-family: "Unbounded", sans-serif;
+        color: #fff;
+    }
+    .kalea {
+        display: flex;
+        gap: 16px;
+    }
+    .kataloge4 {
+        display: inline;
+        line-height: 35px;
+    }
+    .kataloge3 {
+        display: none;
+    }
+    .rasshek {
+        width: 200px;
+        height: 46px;
+        border: 1px solid #EC5100;
+        background: linear-gradient(50deg, #EC5100, #FF741F);
+        border-radius: 100px;
+        cursor: pointer;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        font-family: "Unbounded", sans-serif;
+        line-height: 46px;
+        z-index: 22;
+    }
+    .knor2 {
+        width: 309px;
+        height: 48px;
+        border: 1px solid #EC5100;
+        background: linear-gradient( 50deg , #EC5100 , #FF741F );
+        border-radius: 100px;
+        cursor: pointer;
+        z-index: 2;
+        margin: 4px 0 0 0;
+    }
+    .rassjt {
+        position: absolute;
+        top: 30px;
+        right: 86px;
+    }
+    .rassjt img {
+        width: 278px;
+        height: 217px;
+    }
+    .fflee {
+        display: flex;
+        justify-content: space-between;
+        margin: 104px 0 0 0;
+    }
+    .pfivee {
+        display: none;
+    }
+    .fivve {
+        display: inline;
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        font-family: "Mulish", sans-serif;
+        line-height: 40px;
+    }
+    .del {
+        display: none;
+    }
+    .pod2 {
+        display: flex;
+        gap: 24px;
+        margin: 0 auto;
+        padding: 24px 0 0 0;
+        width: 1320px;
+    }
+    .pod1 {
+        display: flex;
+        gap: 24px;
+        margin: 0 auto;
+        width: 1320px;
+    }
+    .otzv {
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        font-family: "Mulish", sans-serif;
+        width: 430px;
+        line-height: 28px;
+        margin: 32px 0 0 0;
+    }
+    .white_cart {
+        display: flex;
+        gap: 8px;
+        overflow: hidden;
+        width: 610px;
+        margin: 32px 0 0 0;
+    }
+    .marg {
+        margin: 20px 20px 20px 20px;
+    }
+    .knor {
+        display: none;
+    }
+    .pod_ele2 {
+        border: 1px solid #1F1F1F;
+        background-color: #1F1F1F;
+        min-width: 650px;
+        min-height: 212px;
+        border-radius: 32px;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .pod_ele {
+        border: 1px solid #1F1F1F;
+        background-color: #1F1F1F;
+        min-width: 650px;
+        min-height: 292px;
+        border-radius: 32px;
+        margin: 88px 0 0 0;
+        position: relative;
+        overflow: hidden;
+    }
+    .pod_element {
+        background-color: #141414;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        margin: -93px 0 0 0;
+    }
     .ttxxe {
         font-size: 150px;
         font-weight: 600;
