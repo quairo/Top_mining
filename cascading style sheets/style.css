@@ -119,6 +119,7 @@ body {
     white-space: nowrap;
     margin: 88px auto;
     width: 1920px;
+    position: relative;
 }
 .min_logo {
     position: absolute;
@@ -141,6 +142,7 @@ body {
     border-radius: 32px;
     margin: 88px 0 0 0;
     position: relative;
+    overflow: hidden;
 }
 .pod1 {
     display: flex;
@@ -184,6 +186,7 @@ body {
     display: flex;
     gap: 8px;
     margin: 32px 0 0 0;
+    overflow: hidden;
 }
 .white {
     background-color: #F2F2F2;
@@ -295,6 +298,7 @@ body {
     font-weight: 400;
     color: #fff;
     font-family: "Mulish", sans-serif;
+    z-index: 2;
 }
 .vam {
     font-size: 18px;
@@ -316,6 +320,72 @@ body {
     font-family: "Unbounded", sans-serif;
     line-height: 46px;
     z-index: 22;
+}
+.pod2 {
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+    padding: 24px 0 0 0;
+    width: 1713px;
+}
+.fflee2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0 0 0;
+}
+.pod_ele2 {
+    border: 1px solid #1F1F1F;
+    background-color: #1F1F1F;
+    min-width: 852px;
+    max-height: 178px;
+    border-radius: 32px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden; 
+}
+.knor2 {
+    width: 309px;
+    height: 48px;
+    border: 1px solid #EC5100;
+    background: linear-gradient( 50deg , #EC5100 , #FF741F );
+    border-radius: 100px;
+    cursor: pointer;
+    z-index: 2;
+}
+.knor3 {
+    width: 256px;
+    height: 48px;
+    border: 1px solid #EC5100;
+    background: linear-gradient( 50deg , #EC5100 , #FF741F );
+    border-radius: 100px;
+    cursor: pointer;
+    z-index: 1;
+}
+.logodeg {
+    position: absolute;
+    z-index: 2;
+    right: -1px;
+}
+.logodeg2 {
+    position: absolute;
+    z-index: 2;
+    top: 33px;
+    left: 1px;
+}
+.ifirium {
+    position: absolute;
+    bottom: -2px;
+    left: 35%;
+}
+.teleleg {
+    position: absolute;
+    bottom: -2px;
+    left: 58%;
+}
+.teleleg2 {
+    position: absolute;
+    right: 1px;
+    top: -1px;
 }
 @media (max-width: 1440px) {
     .ttxxe {
