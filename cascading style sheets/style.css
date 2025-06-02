@@ -300,7 +300,21 @@ body {
     font-family: "Mulish", sans-serif;
     z-index: 2;
 }
+.helpp {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Mulish", sans-serif;
+    line-height: 24px;
+}
 .vam {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Mulish", sans-serif;
+    line-height: 24px;
+}
+.vamm {
     font-size: 18px;
     font-weight: 400;
     color: #fff;
@@ -341,7 +355,8 @@ body {
     border-radius: 32px;
     position: relative;
     z-index: 1;
-    overflow: hidden; 
+    overflow: hidden;
+    box-sizing: border-box;
 }
 .fivve {
     display: none;
@@ -393,7 +408,56 @@ body {
     right: 1px;
     top: -1px;
 }
+.help1 {
+    display: none;
+}
+.logodeg_adapt {
+    display: none;
+}
+.logodeg2_adapt {
+    display: none;
+}
 @media (max-width: 1440px) {
+    .logodeg2_adapt {
+        display: inline;
+        position: absolute;
+        z-index: 2;
+        left: -1px;
+        bottom: -1px;
+    }
+    .logodeg_adapt {
+        display: inline;
+        position: absolute;
+        z-index: 2;
+        top: 1px;
+        right: 1px;
+    }
+    .logodeg {
+        display: none;
+    }
+    .logodeg2 {
+        display: none;
+    }
+    .fflee2 {
+        display: flex;
+        justify-content: space-between;
+        margin: 32px 0 0 0;
+    }
+    .flee22 {
+        margin: 85px 0 0 0;
+    }
+    .help {
+        display: none;
+    }
+    .help1 {
+        display: inline;
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        font-family: "Mulish", sans-serif;
+        z-index: 2;
+        line-height: 23px;
+    }
     .iimfg4 {
         margin: 5px 0 0 0;
     }
@@ -441,7 +505,7 @@ body {
         border-radius: 100px;
         cursor: pointer;
         z-index: 2;
-        margin: 4px 0 0 0;
+        margin: 17px 0 0 0;
     }
     .rassjt {
         position: absolute;
